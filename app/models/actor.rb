@@ -7,6 +7,9 @@ class Actor < ActiveRecord::Base
     "#{first_name} #{last_name}"  
   end 
   
+  def list_roles
+    binding.pry   
+  end 
  
   
 
