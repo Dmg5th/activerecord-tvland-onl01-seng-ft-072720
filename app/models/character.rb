@@ -6,9 +6,9 @@ class Character < ActiveRecord::Base
   belongs_to :show 
   
   def say_that_thing_you_say
-    binding.pry 
+    # binding.pry 
     
-    "#{name} always says: #{self.catchphrase}"
+    "#{name} always says: #{catchphrase}"
   end 
   
 end
